@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-tar -xvzf data_4_classes.tar.gz
-python create_datasets.py data_4_classes duckiestuff 90
-ls duckiestuff/trainset/*.jpg > duckiestuff/train.txt
-ls duckiestuff/validset/*.jpg > duckiestuff/valid.txt
+
+ls FinalProject/data_folder/trainset/*.jpg > FinalProject/data_folder/train.txt
+ls FinalProject/data_folder/validset/*.jpg > FinalProject/data_folder/valid.txt
